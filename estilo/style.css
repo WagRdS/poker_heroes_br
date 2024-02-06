@@ -22,22 +22,19 @@ body{
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor03), var(--cor01));
+    background: var(--cor03) url("../imagens/logo.png") left top no-repeat fixed;
     min-height: 150px;
     text-align: center;
     font-size: 1.1em;
     border-radius: 10px 10px 0px 0px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.364);
 }
-div#logo{
-    background: var(--cor03) url("../imagens/logo.png") left top no-repeat fixed;
-}
 nav{
-   padding: 10px;
- }
-
+    padding: 10px;
+}
  nav > a{
     color: var(--cor05);
-    padding: 10px;
+    padding: 30px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
