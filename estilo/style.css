@@ -53,6 +53,7 @@ nav{
     background-color: var(--corMenu);
     color: var(--cor04);
  }
+
  main{
     background-color: var(--cor03);
     font-family: var(--fontPadrao);
