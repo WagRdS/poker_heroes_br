@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 :root{
     --corfundo: #b4b5c9;
@@ -12,5 +13,30 @@
     --cor05: #626F8B;
 
     --fontPadrao: 'Indie Flower', cursive;
-    
+    --fontMenu: 'Merriweather', serif;
+}
+
+body{
+    background-color: white;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor05), var(--cor01));
+    font-family: var("--fontPadrao");
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+a#menu{
+    text-decoration: none;
+    font-family: var("--fontMenu");
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 30px;
+    color: var(--corfundo);
+}
+a:hover{
+    transition-duration: .5s;
+    background-color: var(--cor01);
+    margin: 10px;
 }
