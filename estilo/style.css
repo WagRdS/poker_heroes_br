@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+
 :root{
     --corfundo: #b4b5c9;
     --cor01: #0C1833;
@@ -9,4 +10,7 @@
     --cor03: #2C3957;
     --cor04: #435171;
     --cor05: #626F8B;
+
+    --fontPadrao: 'Indie Flower', cursive;
+    
 }
