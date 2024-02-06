@@ -18,23 +18,31 @@
 }
 
 body{
-    background-color: var(--corfundo);
+    background-image: linear-gradient(to bottom, lightgray, gray);
 }
 header{
-    background-image: linear-gradient(to bottom, var(--cor03), var(--cor01));
-    background: var(--cor03) url("../imagens/logo.png") left top no-repeat fixed;
+    background: var(--cor02) url("../imagens/logo.png") left top no-repeat;
     min-height: 150px;
     text-align: center;
     font-size: 1.1em;
     border-radius: 10px 10px 0px 0px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.364);
 }
+header > h1 {
+    color: var(--corMenu);
+    font-family: var(--fontPadrao);
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.566);
+}
 nav{
     padding: 10px;
 }
  nav > a{
     color: var(--cor05);
-    padding: 30px;
+    font-family: var(--fontMenu);
+    padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -42,22 +50,23 @@ nav{
  }
 
  nav > a:hover{
-    background-color: var(--cor03);
-    color: var(--corMenu);
+    background-color: var(--corMenu);
+    color: var(--cor04);
  }
  main{
     background-color: var(--cor03);
+    font-family: var(--fontPadrao);
+    font-size: 1.5em;
     min-width: 300px;
     max-width: 1100px;
     margin: auto;
     padding: 20px;
-    height: 50vh;
+    height: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.41);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    
  }
  footer{
-    background-color: var(--cor01);
+    background-color: var(--cor02);
     text-align: center;
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
