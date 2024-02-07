@@ -16,15 +16,18 @@
     --fontPadrao: 'Indie Flower', cursive;
     --fontMenu: 'Merriweather', serif;
 }
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-image: linear-gradient(to bottom, lightgray, gray);
 }
 header{
-    background: var(--cor02) url("../imagens/logo.png") left top no-repeat;
+    background: var(--cor02) 
     min-height: 150px;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 2vw;
     border-radius: 10px 10px 0px 0px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.364);
 }
@@ -64,8 +67,35 @@ nav{
     padding: 20px;
     height: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.41);
+}
+section{
+    padding: 40px 0px 40px 0px;
+}
+section.imagem{
+    height: 700px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.303);
+    background-image: url(../imagens/grid.png);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+section.imagem > h1{
+    text-align: center;
     
- }
+}
+
+section.pirata{
+    background-image: url(../imagens/pirata_fundo.png);
+    background-size: 200vh;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    
+}
+section ul{
+    padding-left: 30px;
+}
  footer{
     background-color: var(--cor02);
     text-align: center;
