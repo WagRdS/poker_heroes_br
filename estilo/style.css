@@ -24,7 +24,7 @@ body{
     background-image: linear-gradient(to bottom, lightgray, gray);
 }
 header{
-    background: var(--cor02) 
+    background: var(--cor02); 
     min-height: 150px;
     text-align: center;
     font-size: 2vw;
@@ -71,7 +71,7 @@ nav{
 section{
     padding: 40px 0px 40px 0px;
 }
-section.imagem{
+/*section.imagem{
     height: 700px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.303);
     background-image: url(../imagens/grid.png);
@@ -79,19 +79,26 @@ section.imagem{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-}
+}*/
 section.imagem > h1{
     text-align: center;
-    
 }
 
-section.pirata{
-    background-image: url(../imagens/pirata_fundo.png);
+section.herois{
     background-size: 200vh;
     background-repeat: no-repeat;
     background-position: right center;
     background-attachment: fixed;
     
+}
+section#arqueiro{
+    background-image: url(../imagens/arquiro_fundo.png);
+}
+section#clerigo{
+    background-image: url(../imagens/clerigo_fundo.png);
+}
+section#pirata{
+    background-image: url(../imagens/pirata_fundo.png);
 }
 section ul{
     padding-left: 30px;
